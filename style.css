@@ -3,40 +3,81 @@
 	padding: 0;
 	
 }
-.navbar{
 
+.navbar{
 border: none;
-background-color: black;
-color: #61122F;
+background-color: rgba(89, 15, 20, 0.85);
+color: #FFFDD0;
+
 }
+
 body{
-	background-color: #61122F;
-	color: white;
+	background-image: url("FoodBackground.png") ;
+	color: #FFFDD0;
+  background-repeat:  no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }
+
 .glyphicon{
 	font-size: 30px;
-	color:#61122F; 
+	color:#FFFDD0; 
 }
 
 .center{
 	width: 90%;
-	background-color: grey;
+	background-color: #61122F;
 
 }
 .container
 {
-	background-color: grey;
+	background-color: rgba(89, 15, 20, 0.85);
+	border-radius:  25px;
 }
 .text-center{
 	font-size: 30px;
+	font-weight: bold;
+	width: 40%;
+	background-color: rgba(89, 15, 20, 0.85);
+	border-radius:  25px;
+	margin: auto;
 }
 
 h2{
 	text-align: center;
+	font-style: italic;
 }
 #myNavbar ul li a {
-	color: #61122F;
+	color: #FFFDD0;
 }
 .navbar-brand{
-font-size: 30px;	
+font-size: 30px;
+font-weight: bold;
+
+}
+
+.button{
+border: none;
+background-color: #61122F;
+color: #FFFDD0;
+}
+
+ul.nav{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+a.navbar-brand{
+	font-weight: bold;
+	color: #FFFDD0;
+}
+
+a:visited.navbar-brand{
+	font-weight: bold;
+	color: #FFFDD0;
+}
+
+a:active.navbar-brand{
+	font-weight: bold;
+	color: #FFFDD0;
 }
